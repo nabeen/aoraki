@@ -9,4 +9,4 @@
   publish = "target/deploy/"
 
   # Default build command.
-  command = "sh ./netlify.sh; source $HOME/.cargo/env; cargo install cargo-web; cargo web deploy"
+  command = "bash ./netlify.sh; source $HOME/.cargo/env; cargo install cargo-web; cargo web deploy"
