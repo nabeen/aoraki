@@ -9,4 +9,4 @@
   publish = "target/deploy/"
 
   # Default build command.
-  command = "cargo web deploy"
+  command = "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh; cargo install cargo-web; cargo web deploy"
