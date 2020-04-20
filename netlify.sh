@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# refs: https://gist.github.com/LightDiscord/9ee47c760be963604a7fcac4a7dd0f94
 set -e
 
 cweb_version=0.6.24
