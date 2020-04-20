@@ -9,4 +9,4 @@
   publish = "target/deploy/"
 
   # Default build command.
-  command = "bash ./netlify.sh; cargo web deploy"
+  command = "bash ./netlify.sh"
